@@ -10,11 +10,11 @@
 - 本项目基于Paddle官方模型库中的[Metric Learning](https://github.com/PaddlePaddle/models/tree/develop/PaddleCV/metric_learning)模型开发
 
 
-###使用的开源代码为deepsort相关的：
-##使用开源代码文件结构如下；
-#deep_sort   存放deepsort的核心算法
-#model       存放模型
-#mainTest.py 使用进行对视频的测试
+### 使用的开源代码为deepsort相关的：
+#### 使用开源代码文件结构如下；
+- deep_sort   存放deepsort的核心算法
+- model       存放模型
+- mainTest.py 使用进行对视频的测试
 
 
 
@@ -210,12 +210,12 @@ with open('work/metric_learning/data/Market-1501/test.txt', 'w', encoding='UTF-8
 ```
 
 
-###软件部分
-#软件部分使用的是基于Flask框架的web项目
-文件目录介绍
-#static     存放各种后端需要资源，css,js,img,video等
-#templates  存放前端界面文件
-#app.py     项目启动py
-#config.py  项目的配置文件
-#predict.py 对前端数据进行后端的处理，并与deepSort的算法进行一系列的融合处理
-#videoWriterTest.py  测试当前的视频合成，是否可在浏览器中显示。
+# 软件部分
+### 软件部分使用的是基于Flask框架的web项目
+#### 文件目录介绍
+- static     存放各种后端需要资源，css,js,img,video等
+- templates  存放前端界面文件
+- app.py     项目启动py
+- config.py  项目的配置文件
+- predict.py 对前端数据进行后端的处理，并与deepSort的算法进行一系列的融合处理
+- videoWriterTest.py  测试当前的视频合成，是否可在浏览器中显示。
