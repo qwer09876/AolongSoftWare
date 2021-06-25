@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+.box{
+    display: inline-block;
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: pink;
+
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    float: left;
+
+}
+.img{
+    align-content: center;
+    width: 320px;
+    height: 320px;
+}
+.bt{
+    border: 2px solid #eee;
+    text-size-adjust: 100px;
+    background: orange;
+    font-size: larger;
+    margin: 10px;
+}
